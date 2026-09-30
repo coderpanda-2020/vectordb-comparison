@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Qdrant Storage (if running via Docker locally)
+qdrant_storage/
+
+# Articles and Visualizations 
+results/*
+!results/.gitkeep
+docs/visualizations.html
+docs/article.md
+docs/substack_article.md
+
+# Local Vector DB Storage Artifacts
+shard/
+.chroma/
